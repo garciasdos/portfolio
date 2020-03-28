@@ -11,36 +11,32 @@ const content = {
     3: `For life's sake, I went back to Pamplona, and I thought the best place to work was Multihelpers. My goal: to try to apply everything I learned in this last stage in the first company that gave me the opportunity to grow professionally`
 };
 
-class CardsComponent extends React.Component {
-    render() {
-        return (
-            <div id={this.props.id}>
-                {this.props.visible && <section className="hero is-light is-fullheight">
-                    <div className="hero-body">
-                        <div className="tile is-ancestor">
-                            <div className="tile is-vertical is-parent">
-                                <CardComponent logo={mhLogo} title={"Software Developer"} type="Internship"
-                                               duration="September 2017 - April 2018 (8 months)"
-                                               content={content[0]}/>
-                                <CardComponent logo={mhLogo} title={"Software Developer"} type="Full-time"
-                                               duration="April 2018 - May 2019 (1 year 2 months)"
-                                               content={content[1]}/>
-                            </div>
-                            <div className="tile is-vertical is-parent">
-                                <CardComponent logo={HLZLogo} title={"Backend Developer"} type="Full-time"
-                                               duration="May 2019 - September 2019 (5 months)"
-                                               content={content[2]}/>
-                                <CardComponent logo={mhLogo} title={"Backend Team Leader"} type="Full-time"
-                                               duration="September 2019 - Present"
-                                               content={content[3]}/>
-                                <ContactButton/>
-                            </div>
-                        </div>
+const CardsComponent = ({id, visible}) => (
+    <div id={id}>
+        {visible && <section className="hero is-light is-fullheight">
+            <div className="hero-body">
+                <div className="tile is-ancestor">
+                    <div className="tile is-vertical is-parent">
+                        <CardComponent logo={mhLogo} title={"Software Developer"} type="Internship"
+                                       duration="September 2017 - April 2018 (8 months)"
+                                       content={content[0]}/>
+                        <CardComponent logo={mhLogo} title={"Software Developer"} type="Full-time"
+                                       duration="April 2018 - May 2019 (1 year 2 months)"
+                                       content={content[1]}/>
                     </div>
-                </section>}
+                    <div className="tile is-vertical is-parent">
+                        <CardComponent logo={HLZLogo} title={"Backend Developer"} type="Full-time"
+                                       duration="May 2019 - September 2019 (5 months)"
+                                       content={content[2]}/>
+                        <CardComponent logo={mhLogo} title={"Backend Team Leader"} type="Full-time"
+                                       duration="September 2019 - Present"
+                                       content={content[3]}/>
+                        <ContactButton/>
+                    </div>
+                </div>
             </div>
-        )
-    }
-}
+        </section>}
+    </div>
+);
 
 export default CardsComponent;

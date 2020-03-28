@@ -7,7 +7,7 @@ class HeaderComponent extends React.Component {
         return (
             <section className="hero is-success is-fullheight">
                 <div className="hero-body">
-                    <div className="container">
+                    <div className="container has-text-centered">
                         <h1 className="title">
                             {this.props.name}
                         </h1>
@@ -20,8 +20,8 @@ class HeaderComponent extends React.Component {
                     <div className="hero-foot" onClick={this.props.click}>
                         <section className="hero">
                             <div className="hero-body">
-                                <div className="container">
-                                    <p className="title heartbeat">
+                                <div className="container has-text-centered">
+                                    <p className="title">
                                         Who am I?
                                     </p>
                                 </div>

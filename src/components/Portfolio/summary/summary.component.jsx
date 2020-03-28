@@ -4,7 +4,7 @@ class Summary extends React.Component {
     render() {
         return (
             <div id={this.props.id}>
-                {this.props.visible && <section className="hero is-primary is-fullheight">
+                {this.props.visible && <section className="hero is-primary is-fullheight is-bold">
                     <div className="hero-body">
                         <div className="container">
                             <p className="title">

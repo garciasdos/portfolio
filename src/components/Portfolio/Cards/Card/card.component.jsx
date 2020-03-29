@@ -15,8 +15,7 @@ const CardComponent = ({logo, title, type, duration, content}) => (
         <p className="subtitle">
             {duration}
         </p>
-        <p className="content">
-            {content}
+        <p className="content" dangerouslySetInnerHTML={{ __html: content }}>
         </p>
 
     </div>

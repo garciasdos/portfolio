@@ -1,8 +1,8 @@
 import * as React from "react";
 import CoverPage from "./CoverPage/cover.page";
 import Summary from "./summary/summary.component";
-import CardsComponent from "./ProfessionalBackground/cards.component";
-import {Events} from "react-scroll";
+import CardsComponent from "./Cards/cards.component";
+import {Events, animateScroll as scroll, scrollSpy} from "react-scroll";
 
 class PortfolioComponent extends React.Component {
     constructor(props) {
@@ -18,21 +18,11 @@ class PortfolioComponent extends React.Component {
         this.setState({
             isSummaryVisible: true
         });
-        Events.scrollEvent.register('end', () =>  {
-            this.setState({
-                isCoverPageVisible: false
-            });
-        });
     };
 
     showCards = () => {
         this.setState({
             areCardsVisible: true
-        });
-        Events.scrollEvent.register('end', () =>  {
-            this.setState({
-                isSummaryVisible: false
-            });
         });
     };
 

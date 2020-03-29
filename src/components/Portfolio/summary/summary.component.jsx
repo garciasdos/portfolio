@@ -4,7 +4,7 @@ import HeroFooterLink from "../../Utils/hero.footer.link";
 const Summary = ({id, isVisible, target, clickFunction}) => (
     <div id={id}>
         {isVisible &&
-        <section className="hero is-primary is-fullheight is-bold">
+        <section className="hero is-light is-fullheight">
             <div className="hero-body">
                 <div className="container">
                     <p className="title">
@@ -20,7 +20,7 @@ const Summary = ({id, isVisible, target, clickFunction}) => (
                     </p>
                 </div>
             </div>
-            <HeroFooterLink target={target} clickFunction={clickFunction} />
+            <HeroFooterLink type="dark" text="" target={target} clickFunction={clickFunction} />
         </section>}
     </div>
 );

@@ -1,7 +1,7 @@
 import React from "react";
 
 const CoverPageTitle = ({title, subtitle}) => (
-    <div>
+    <div className="container">
         <h1 className="title">
             {title}
         </h1>

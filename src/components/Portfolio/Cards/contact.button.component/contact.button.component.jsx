@@ -1,10 +1,14 @@
 import React from "react";
+import {Link} from "react-scroll";
+import SocialButtons from "../../../SocialButtons/social.buttons.component";
 
-const ContactButton = () => (
-    <div className="tile is-child notification is-primary is-light">
-        <p className=" ">
-            Contact me!
-        </p>
-    </div>);
+const ContactButton = ({target, clickFunction}) => (
+    <Link smooth={true} to={target}>
+        <div className="tile is-child box has-text-centered" onClick={clickFunction}>
+            <p className="is-size-4 is-capitalized has-text-weight-semibold">
+                Contact
+            </p>
+        </div>
+    </Link>);
 
 export default ContactButton;

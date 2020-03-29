@@ -15,7 +15,7 @@ const CardComponent = ({logo, title, type, duration, content}) => (
         <p className="subtitle">
             {duration}
         </p>
-        <p className="content" dangerouslySetInnerHTML={{ __html: content }}>
+        <p className="content has-text-justified" dangerouslySetInnerHTML={{ __html: content }}>
         </p>
 
     </div>

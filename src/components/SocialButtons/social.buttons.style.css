@@ -1,4 +1,3 @@
-@import "//codepen.io/jatinn_r/pen/OJPLZLX.css";
 .social-btns .btn,
 .social-btns .btn:before,
 .social-btns .btn .fa {
@@ -13,36 +12,20 @@
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
 }
-.social-btns .btn.facebook:before {
-    background-color: #3B5998;
-}
-.social-btns .btn.facebook .fa {
-    color: #3B5998;
-}
+
 .social-btns .btn.twitter:before {
     background-color: #0e76a8;
 }
 .social-btns .btn.twitter .fa {
     color: #0e76a8;
 }
-.social-btns .btn.codepen:before {
-    background-color: #212121;
-}
-.social-btns .btn.codepen .fa {
-    color: #212121;
-}
 .social-btns .btn.instagram:before {
-    background-color: #FE0883;
+    background-color: #000;
 }
 .social-btns .btn.instagram .fa {
-    color: #FE0883;
+    color: #000;
 }
-.social-btns .btn.pinterest:before {
-    background-color: #910101;
-}
-.social-btns .btn.pinterest .fa {
-    color: #910101;
-}
+
 .social-btns .btn:focus:before,
 .social-btns .btn:hover:before {
     top: -10%;

@@ -6,7 +6,7 @@ import avatar from "../../../avatar.jpeg";
 
 const CoverPage = ({title, subtitle, target, clickFunction, isVisible}) => (
     isVisible &&
-    <section className="hero-foo is-light is-fullheight">
+    <section className="hero-bg is-light is-fullheight">
         <div className="hero-head">
             <section className="hero">
                 <div className="hero-body">

@@ -10,7 +10,7 @@ const Summary = ({id, isVisible, target, clickFunction}) => (
                     <p className="title">
                         Hey! I'm Diego.
                     </p>
-                    <p className="is-size-3 has-text-justified">
+                    <p className="is-size-4 has-text-justified">
                         I'm (mainly) a <strong>backend developer</strong> who believes that things can really be
                         done
                         right. I'm a fan of

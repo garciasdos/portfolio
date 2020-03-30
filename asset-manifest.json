@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9831fcc7.chunk.css",
-    "main.js": "/portfolio/static/js/main.625a6671.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.625a6671.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.48919d07.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.48919d07.js.map",
-    "static/js/2.9140db13.chunk.js": "/portfolio/static/js/2.9140db13.chunk.js",
-    "static/js/2.9140db13.chunk.js.map": "/portfolio/static/js/2.9140db13.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.395b1846f6ac40fc424c4b153d7c972e.js": "/portfolio/precache-manifest.395b1846f6ac40fc424c4b153d7c972e.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.9831fcc7.chunk.css.map": "/portfolio/static/css/main.9831fcc7.chunk.css.map",
-    "static/js/2.9140db13.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9140db13.chunk.js.LICENSE.txt",
-    "static/media/avatar.jpeg": "/portfolio/static/media/avatar.baab9e54.jpeg",
-    "static/media/holaluz-logo.svg": "/portfolio/static/media/holaluz-logo.bd34f9ea.svg",
-    "static/media/logo-multihelpers2.svg": "/portfolio/static/media/logo-multihelpers2.1509d806.svg"
+    "main.css": "/static/css/main.aae2ac35.chunk.css",
+    "main.js": "/static/js/main.17914ae6.chunk.js",
+    "main.js.map": "/static/js/main.17914ae6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.39ce593c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.39ce593c.js.map",
+    "static/js/2.9140db13.chunk.js": "/static/js/2.9140db13.chunk.js",
+    "static/js/2.9140db13.chunk.js.map": "/static/js/2.9140db13.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.65bee4317d91a24ec11e5b317c1c5603.js": "/precache-manifest.65bee4317d91a24ec11e5b317c1c5603.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.aae2ac35.chunk.css.map": "/static/css/main.aae2ac35.chunk.css.map",
+    "static/js/2.9140db13.chunk.js.LICENSE.txt": "/static/js/2.9140db13.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpeg": "/static/media/avatar.baab9e54.jpeg",
+    "static/media/holaluz-logo.svg": "/static/media/holaluz-logo.bd34f9ea.svg",
+    "static/media/logo-multihelpers2.svg": "/static/media/logo-multihelpers2.1509d806.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.48919d07.js",
+    "static/js/runtime-main.39ce593c.js",
     "static/js/2.9140db13.chunk.js",
-    "static/css/main.9831fcc7.chunk.css",
-    "static/js/main.625a6671.chunk.js"
+    "static/css/main.aae2ac35.chunk.css",
+    "static/js/main.17914ae6.chunk.js"
   ]
 }

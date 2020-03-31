@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.39e689d1.chunk.css",
-    "main.js": "/static/js/main.dd3a1642.chunk.js",
-    "main.js.map": "/static/js/main.dd3a1642.chunk.js.map",
+    "main.css": "/static/css/main.9b6f182e.chunk.css",
+    "main.js": "/static/js/main.8a3ca0ad.chunk.js",
+    "main.js.map": "/static/js/main.8a3ca0ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.39ce593c.js",
     "runtime-main.js.map": "/static/js/runtime-main.39ce593c.js.map",
     "static/js/2.8adc1e74.chunk.js": "/static/js/2.8adc1e74.chunk.js",
     "static/js/2.8adc1e74.chunk.js.map": "/static/js/2.8adc1e74.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3cc34d28a4d03be6159e78000ec966ed.js": "/precache-manifest.3cc34d28a4d03be6159e78000ec966ed.js",
+    "precache-manifest.c6e70791bbec1ee37ec6d6286d18bf57.js": "/precache-manifest.c6e70791bbec1ee37ec6d6286d18bf57.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.39e689d1.chunk.css.map": "/static/css/main.39e689d1.chunk.css.map",
+    "static/css/main.9b6f182e.chunk.css.map": "/static/css/main.9b6f182e.chunk.css.map",
     "static/js/2.8adc1e74.chunk.js.LICENSE.txt": "/static/js/2.8adc1e74.chunk.js.LICENSE.txt",
-    "static/media/avatar.jpeg": "/static/media/avatar.baab9e54.jpeg",
+    "static/media/App.sass": "/static/media/avatar.baab9e54.jpeg",
     "static/media/holaluz-logo.svg": "/static/media/holaluz-logo.bd34f9ea.svg",
     "static/media/logo-multihelpers2.svg": "/static/media/logo-multihelpers2.1509d806.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.39ce593c.js",
     "static/js/2.8adc1e74.chunk.js",
-    "static/css/main.39e689d1.chunk.css",
-    "static/js/main.dd3a1642.chunk.js"
+    "static/css/main.9b6f182e.chunk.css",
+    "static/js/main.8a3ca0ad.chunk.js"
   ]
 }

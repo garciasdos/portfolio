@@ -1,7 +1,7 @@
 import * as React from "react";
 
-const CardComponent = ({logo, title, type, duration, content}) => (
-    <div className="tile is-child box">
+const CardComponent = ({logo, title, type, duration, content, className}) => (
+    <div className={`tile is-child box ${className}`}>
         <div className="columns is-centered">
             <div className="column is-three-quarters-tablet is-half-desktop ">
                 <div className="image is-3by1">

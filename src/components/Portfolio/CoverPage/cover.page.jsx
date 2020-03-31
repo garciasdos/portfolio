@@ -2,7 +2,6 @@ import * as React from "react";
 import './header.styles.css';
 import CoverPageTitle from "./cover.page.title";
 import FocusInLink from "../../Utils/focus.in.link.component";
-import avatar from "../../../avatar.jpeg";
 
 const CoverPage = ({title, subtitle, target, clickFunction, isVisible}) => (
     isVisible &&

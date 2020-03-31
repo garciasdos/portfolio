@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-scroll";
-import SocialButtons from "../../../SocialButtons/social.buttons.component";
 
 const ContactButton = ({target, clickFunction}) => (
     <Link smooth={true} to={target}>
